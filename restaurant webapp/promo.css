@@ -1,0 +1,67 @@
+body{
+    background-image: url('images/background2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Courier;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* Navigation CSS*/
+
+/*
+nav{
+    border-bottom: double;
+    border-color: white;
+}
+*/
+
+#left_nav{
+    float: left;
+    border-bottom: double;
+    border-color: white;
+}
+
+#right_nav{
+    float: right;   
+    border-bottom: double;
+    border-color: white;
+}
+
+li {
+    box-sizing: border-box;
+    display: inline;
+    padding: 10px
+}
+
+nav ul li a:hover{
+    opacity: 80%;
+}
+
+nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+#container h1{
+    color: white;
+}
+
+#container p{
+    color: white;
+    text-align: justify;
+}

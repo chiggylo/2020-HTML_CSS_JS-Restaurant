@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>[Name] Casual Fine Dining Experience</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="" type="text/javascript"></script> 
+    </head>
+    <body>
+        <nav>
+            <ul id="left_nav">
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a class="fab fa-twitter" href=""></a>
+                </li>
+                <li>
+                    <a class="fab fa-facebook" href=""></a>
+                </li>
+                <li>
+                    <a class="fab fa-instagram" href=""></a>
+                </li>
+            </ul>
+            <ul id="right_nav">
+                <li><a href="order.html">Order</a></li>
+                <li><a href="reserve.html">Reservation</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <div id="container">
+                
+        <div id="top_display">
+            <div id="slideShow">
+                <a href="promo.html#promo_mm"><img class="slides" src="images/promo1.png" alt="Monday Madness"></a>
+                <a href="promo.html#promo_tgif"><img class="slides" src="images/promo2.png" alt="TGIF"></a>
+                <a href="promo.html#promo_ss"><img class="slides" src="images/promo3.png" alt="Sunny Sunday"></a>
+                <div id="slides_dot">
+                    <span class="slides_dot"></span> 
+                    <span class="slides_dot"></span> 
+                    <span class="slides_dot"></span> 
+                </div>
+            </div>
+            <div id="contact_info_background">
+                <div id="contact_info">
+                    <h1>Visit Us</h1>
+                    <p>Enjoy a casual fine dining experience you deserve</p>
+                    <p class="fas fa-map-marker-alt"> Location: XXX</p>
+                    <p>Breakfast: 8am to 11pm </p>
+                    <p>Lunch: 1pm to 4pm</p>
+                    <p>Dinner: 7pm to 10pm</p>
+                    <p class="fas fa-phone"> Book now at +60 XXX XXX XXX</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="feature_display">
+            <div class="feature">
+                <span class="icon"><i class="fas fa-dollar-sign"></i></span>
+                <h3>Cheap</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="feature">
+                <span class="icon"><i class="fas fa-wifi"></i></span>
+                <h3>Free WiFi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="feature">
+                <span class="icon"><i class="fas fa-music"></i></span>
+                <h3>Music</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="feature">
+                <span class="icon"><i class="fas fa-glass-whiskey"></i></i></span>
+                <h3>Bar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+        </div>
+        
+        <!--
+              <div class="thumbnail">
+                <img class="gallary_image" src="images/gallary/pic1.jpeg" alt="">
+                <span><img src="images/gallary/pic1.jpeg" alt=""></span>
+            </div>
+        -->
+          
+            
+
+        
+        
+
+
+        <div id="gallary_display">
+            <h1 >Gallary</h1>
+            <div class="gallary">
+                <img class="gallary_image"  src="images/gallary/pic1.jpeg" alt="">
+                <span><img src="images/gallary/pic1.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic2.jpeg" alt="">
+                <span><img src="images/gallary/pic2.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic3.jpeg" alt="">
+                <span><img src="images/gallary/pic3.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic4.jpeg" alt="sample">
+                <span><img src="images/gallary/pic4.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic5.jpeg" alt="sample">
+                <span><img src="images/gallary/pic5.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic6.jpeg" alt="sample">
+                <span><img src="images/gallary/pic6.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic7.jpeg" alt="sample">
+                <span><img src="images/gallary/pic7.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic8.jpeg" alt="sample">
+                <span><img src="images/gallary/pic8.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic9.jpeg" alt="sample">
+                <span><img src="images/gallary/pic9.jpeg" alt=""></span>
+            </div>
+            <div class="gallary">
+                <img class="gallary_image" src="images/gallary/pic10.jpeg" alt="sample">
+                <span><img src="images/gallary/pic10.jpeg" alt=""></span>
+            </div>
+        </div>
+
+        </div>
+
+
+       
+       
+
+
+
+        <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("slides");
+              var dots = document.getElementsByClassName("slides_dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+        
+    </body>
+</html>

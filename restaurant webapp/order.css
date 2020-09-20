@@ -1,0 +1,90 @@
+body{
+    background-image: url('images/background2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Courier;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* Navigation CSS*/
+
+/*
+nav{
+    border-bottom: double;
+    border-color: white;
+}
+*/
+
+#left_nav{
+    float: left;
+    border-bottom: double;
+    border-color: white;
+}
+
+#right_nav{
+    float: right;   
+    border-bottom: double;
+    border-color: white;
+}
+
+li {
+    box-sizing: border-box;
+    display: inline;
+    padding: 10px
+}
+
+nav ul li a:hover{
+    opacity: 80%;
+}
+
+nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#container{
+    border: double;
+    border-color: white;
+}
+#container div{
+    margin: 10px;
+}
+
+form{
+    padding: 10px;
+}
+form label{
+    color: white;
+}
+
+div textarea{
+    width: 100%;
+    resize: none;
+}
+
+/*
+#delivery_address{
+    visibility: hidden;
+}
+
+
+#delivery_checked:checked ~ #delivery_address{
+    visibility: visible;
+}*/
+
+
+
+
